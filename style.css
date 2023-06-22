@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(36 37 45 / 1);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    background-color: rgb(29 30 38 / 1);
+    width: 600px;
+    height: 500px;
+    margin: 150px auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+i {
+    position: absolute;
+    color: white;
+    top: 8px;
+    left: 9px;
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    right: 2rem;
+    top: 2rem;
+    border-radius: 50%;
+}
+
+h3 {
+    color: rgb(152 153 173 / 1);
+    position: absolute;
+    top: 3rem;
+    left: 13rem;
+}
+
+p {
+    color: rgb(72 74 88 / 1);
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+    max-width: 40ch;
+    text-align: center;
+}
+
+button {
+    background-color: #17181c;
+    color: #484a58;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(199 64 98 / 1);
+}
+
+button:first-of-type {
+    position: absolute;
+    top: 11rem;
+    left: 3rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(2) {
+    position: absolute;
+    top: 11rem;
+    left: 14rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(3) {
+    position: absolute;
+    top: 11rem;
+    left: 25rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(4) {
+    position: absolute;
+    top: 16rem;
+    left: 3rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(5) {
+    position: absolute;
+    top: 16rem;
+    left: 14rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(6) {
+    position: absolute;
+    top: 16rem;
+    left: 25rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(7) {
+    position: absolute;
+    top: 21rem;
+    left: 3rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(8) {
+    position: absolute;
+    top: 21rem;
+    left: 14rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(9) {
+    position: absolute;
+    top: 21rem;
+    left: 25rem;
+    width: 150px;
+    height: 50px;
+}
+
+button:nth-of-type(10) {
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    bottom: 3rem;
+    left: 13rem;
+    border-radius: 5px;
+    color: rgb(72 74 88 / 1);
+    border: 1px solid black;
+    background-color: rgb(29 30 38 / 1);
+}
+
+button:nth-of-type(11) {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(199 64 98 / 1);
+    position: absolute;
+    bottom: 3rem;
+    left: 19rem;
+    border-radius: 5px;
+    color: white;
+}
